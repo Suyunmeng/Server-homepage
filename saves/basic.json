@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 6,
-        "idCounter": 213,
+        "idCounter": 214,
         "themeColor": "rgba(35,42,40,1)",
         "autoThemeColor": true,
         "wallpapers": [
@@ -223,7 +223,7 @@
                 "content": "./res/img/icon/network.ico",
                 "bg": "rgb(#000000)"
             },
-            "openMode": "outer",
+            "openMode": "normal",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -240,7 +240,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "公网测速",
+            "title": "公网测速（国内）",
             "url": "https://www.speedtest.cn/",
             "customTile": "",
             "urlRandomToken": false
@@ -274,7 +274,7 @@
                 "width": "x*0.8"
             },
             "title": "Aria2",
-            "url": "http://192.168.1.11/AriaNG",
+            "url": "https://homepage.server.huacloud.eu.org/AriaNG",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -373,7 +373,7 @@
                 "width": "x*0.8"
             },
             "title": "本地测速",
-            "url": "http://192.168.1.11/speedtest",
+            "url": "https://speedtest.huacloud.eu.org",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -388,7 +388,7 @@
                 "content": "宝塔面板",
                 "bg": "#26a364"
             },
-            "openMode": "outer",
+            "openMode": "normal",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -406,7 +406,7 @@
                 "width": "x*0.8"
             },
             "title": "宝塔面板",
-            "url": "http://192.168.1.11:9000/BT-Panel",
+            "url": "https://server-inner.huacloud.eu.org:9000/Server_Control",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -452,7 +452,7 @@
             "icon": {
                 "type": "str",
                 "content": "OneDrive",
-                "bg": "rgb(17,35,40)"
+                "bg": "#7875e0"
             },
             "openMode": "normal",
             "plugin": false,
@@ -472,15 +472,48 @@
                 "width": "x*0.8"
             },
             "title": "OneDrive",
-            "url": "http://192.168.1.11:9003",
+            "url": "https://onedrive.huacloud.eu.org",
             "customTile": "",
             "urlRandomToken": false
+        },
+        "app-213": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./res/img/icon/network.ico",
+                "bg": "rgb(#000000)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "2.1.0",
+            "poweredBy": "郭郭",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "公网测速（国际）",
+            "url": "https://www.speedtest.net",
+            "customTile": "",
+            "urlRandomToken": true
         }
     },
     "shortcuts": [
         {
             "app": "NetWork",
-            "title": "公网测速",
+            "title": "公网测速（国内）",
             "params": {},
             "hash": ""
         },
@@ -529,6 +562,12 @@
         {
             "app": "app-209",
             "title": "百度云",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-213",
+            "title": "公网测速（国际）",
             "params": {},
             "hash": ""
         }
