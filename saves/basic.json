@@ -340,7 +340,7 @@
                 "width": "x*0.8"
             },
             "title": "EMBY媒体中心",
-            "url": "http://192.168.1.11:9004/web/index.html#/login.html?serverid=c2c35ef04bf147eb9d4579fdd429ec53",
+            "url": "https://jellyfin.huacloud.eu.org",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -406,7 +406,7 @@
                 "width": "x*0.8"
             },
             "title": "宝塔面板",
-            "url": "https://server-inner.huacloud.eu.org:9000/Server_Control",
+            "url": "https://server-control.huacloud.eu.org:9000/Server_Control",
             "customTile": "",
             "urlRandomToken": false
         },
