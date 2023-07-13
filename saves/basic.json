@@ -520,7 +520,7 @@
                 "content": "InnerWeb",
                 "bg": "#ad7dd1"
             },
-            "openMode": "normal",
+            "openMode": "outer",
             "plugin": false,
             "position": {
                 "autoOffset": true,
