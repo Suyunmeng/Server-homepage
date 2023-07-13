@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 6,
-        "idCounter": 214,
+        "idCounter": 215,
         "themeColor": "rgba(35,42,40,1)",
         "autoThemeColor": true,
         "wallpapers": [
@@ -274,7 +274,7 @@
                 "width": "x*0.8"
             },
             "title": "Aria2",
-            "url": "https://ariang.server.huacloud.eu.org",
+            "url": "https://ariang.huacloud.eu.org",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -439,7 +439,7 @@
                 "width": "x*0.8"
             },
             "title": "百度云",
-            "url": "http://192.168.1.11:9131",
+            "url": "https://baidupcs.huacloud.eu.org",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -454,7 +454,7 @@
                 "content": "OneDrive",
                 "bg": "#7875e0"
             },
-            "openMode": "outer",
+            "openMode": "normal",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -508,12 +508,57 @@
             "url": "https://www.speedtest.net",
             "customTile": "",
             "urlRandomToken": true
+        },
+        "app-214": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "InnerWeb",
+                "bg": "#ad7dd1"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "内网控制台",
+            "url": "https://homepage-inner.huacloud.eu.org",
+            "customTile": "",
+            "urlRandomToken": false
         }
     },
     "shortcuts": [
         {
             "app": "NetWork",
             "title": "公网测速（国内）",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-213",
+            "title": "公网测速（国际）",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-201",
+            "title": "本地测速",
             "params": {},
             "hash": ""
         },
@@ -530,8 +575,8 @@
             "hash": ""
         },
         {
-            "app": "app-201",
-            "title": "本地测速",
+            "app": "app-214",
+            "title": "内网控制台",
             "params": {},
             "hash": ""
         },
@@ -562,12 +607,6 @@
         {
             "app": "app-209",
             "title": "百度云",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "app-213",
-            "title": "公网测速（国际）",
             "params": {},
             "hash": ""
         }
