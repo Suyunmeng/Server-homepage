@@ -254,7 +254,7 @@
             "icon": {
                 "type": "img",
                 "content": "./res/img/icon/d1.png",
-                "bg": "rgb(#000000)"
+                "bg": "#0000"
             },
             "openMode": "normal",
             "plugin": false,
@@ -344,39 +344,6 @@
             "customTile": "",
             "urlRandomToken": false
         },
-        "app-201": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "./res/img/icon/network.ico",
-                "bg": "rgb(#000000)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "郭郭",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "本地测速",
-            "url": "https://speedtest.huacloud.eu.org",
-            "customTile": "",
-            "urlRandomToken": false
-        },
         "app-207": {
             "addressBar": false,
             "autoRun": 0,
@@ -406,7 +373,7 @@
                 "width": "x*0.8"
             },
             "title": "宝塔面板",
-            "url": "https://server-control.huacloud.eu.org:9000/Server_Control",
+            "url": "https://server-control.cloud-private.eu.org/Server_Control",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -472,7 +439,7 @@
                 "width": "x*0.8"
             },
             "title": "OneDrive",
-            "url": "https://onedrive.huacloud.eu.org",
+            "url": "https://onedrive.cloud-private.eu.org",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -553,12 +520,6 @@
         {
             "app": "app-213",
             "title": "公网测速（国际）",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "app-201",
-            "title": "本地测速",
             "params": {},
             "hash": ""
         },
@@ -719,12 +680,6 @@
             "itemPushed-204": {
                 "app": "NetWork",
                 "title": "公网测速",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-205": {
-                "app": "app-201",
-                "title": "本地测速",
                 "params": {},
                 "hash": ""
             },
