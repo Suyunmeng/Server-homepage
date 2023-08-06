@@ -1,0 +1,4 @@
+apis.google.com/js/platform.js$domain=minecraft.curseforge.com|www.curseforge.com
+fonts.googleapis.com/css?family=*$domain=minecraft.curseforge.com|www.curseforge.com
+www.google-analytics.com/*.js$domain=minecraft.curseforge.com|www.curseforge.com
+tags.crwdcntrl.net/*.js$domain=minecraft.curseforge.com|www.curseforge.com
