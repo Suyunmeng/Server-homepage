@@ -54,7 +54,7 @@
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^http(s?)://(.*)\\.gstatic\\.com/(.*)",
-			"exclude": "^http(s?)://ssl\\.gstatic\\.com/(.*)",
+			"exclude": "^http(s?)://(www|ssl)\\.gstatic\\.com/(.*)",
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://$2.gstatic.cn/$3",
@@ -232,7 +232,7 @@
 			"to": "https://use.sevencdn.com/$2"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "AMO 去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -244,7 +244,7 @@
 			"group": "去跳转（other）"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "百度网盘去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -256,7 +256,7 @@
 			"group": "去跳转（other）"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "Youtube去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -268,7 +268,7 @@
 			"group": "Google"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "谷歌搜索去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -280,7 +280,7 @@
 			"group": "Google"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "语雀文档去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -292,7 +292,7 @@
 			"group": "去跳转（other）"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "小红书去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -304,7 +304,7 @@
 			"group": "去跳转（other）"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "知乎去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -316,7 +316,7 @@
 			"group": "去跳转（other）"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "腾讯文档去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
