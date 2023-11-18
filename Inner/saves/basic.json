@@ -1,0 +1,718 @@
+{
+    "configs": {
+        "topTaskBar": false,
+        "sound": false,
+        "wallpaper": "./res/img/wallpapers/bg14.jpg",
+        "wallpaperBlur": false,
+        "wallpaperSlide": false,
+        "wallpaperSlideRandom": true,
+        "wallpaperSlideItv": 1,
+        "wallpaperSlideTime": 1519442460788,
+        "wallpaperSlideIndex": 8,
+        "openMax": 6,
+        "idCounter": 214,
+        "themeColor": "rgba(35,42,40,1)",
+        "autoThemeColor": true,
+        "wallpapers": [
+            {
+                "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+            },
+            {
+                "image": "./res/img/wallpapers/bg1.jpg",
+                "preview": "./res/img/wallpapers/bg1_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg2.jpg",
+                "preview": "./res/img/wallpapers/bg2_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg3.jpg",
+                "preview": "./res/img/wallpapers/bg3_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg4.jpg",
+                "preview": "./res/img/wallpapers/bg4_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg5.jpg",
+                "preview": "./res/img/wallpapers/bg5_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg6.jpg",
+                "preview": "./res/img/wallpapers/bg6_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg7.jpg",
+                "preview": "./res/img/wallpapers/bg7_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg8.jpg",
+                "preview": "./res/img/wallpapers/bg8_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg9.jpg",
+                "preview": "./res/img/wallpapers/bg9_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg10.jpg",
+                "preview": "./res/img/wallpapers/bg10_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg11.jpg",
+                "preview": "./res/img/wallpapers/bg11_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg12.jpg",
+                "preview": "./res/img/wallpapers/bg12_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg13.jpg",
+                "preview": "./res/img/wallpapers/bg13_1.jpg"
+            },
+            {
+                "image": "./res/img/wallpapers/bg14.jpg",
+                "preview": "./res/img/wallpapers/bg14_1.jpg"
+            }
+        ],
+        "pathRes": "./res",
+        "shortcutsSortAuto": true,
+        "debug": false,
+        "winBlur": true
+    },
+    "apps": {
+        "yl-system": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "YLUI系统设置面板",
+            "icon": {
+                "type": "fa",
+                "bg": "#436fde",
+                "content": "gear"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "x": "x*0.1",
+                "y": "y*0.000001",
+                "left": true,
+                "top": true,
+                "autoOffset": true
+            },
+            "version": "2.1.0",
+            "poweredBy": "YLUI",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "width": "1072",
+                "height": "590"
+            },
+            "title": "设置",
+            "url": "./res/apps/yl-system/index.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "yl-color-picker": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "简单的取色器",
+            "icon": {
+                "type": "fa",
+                "bg": "#3289c7",
+                "content": "eyedropper"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "x": "(x-207)/2",
+                "y": "(y-239)/2",
+                "left": true,
+                "top": true,
+                "autoOffset": false
+            },
+            "version": "1.0.0",
+            "poweredBy": "Yuri2",
+            "resizable": false,
+            "single": true,
+            "size": {
+                "width": "207",
+                "height": "239"
+            },
+            "title": "取色器",
+            "url": "./res/apps/colorPicker/colorPicker.html",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "yl-browser": {
+            "addressBar": true,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "浏览器",
+            "icon": {
+                "type": "fa",
+                "content": "internet-explorer",
+                "bg": "#3a55c2"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.1",
+                "y": "y*0.1"
+            },
+            "version": "2.1.0",
+            "poweredBy": "Yuri2",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "浏览器",
+            "url": "https://www.hao123.com",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "yl-server": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "YLUI官方后台服务",
+            "icon": {
+                "type": "fa",
+                "content": "yoast",
+                "bg": "#6b96cf"
+            },
+            "openMode": "min",
+            "plugin": true,
+            "position": {
+                "autoOffset": false,
+                "left": false,
+                "top": false,
+                "x": "4",
+                "y": "4"
+            },
+            "version": "1.0.0",
+            "poweredBy": "Yuri2",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "80",
+                "width": "160"
+            },
+            "title": "YLUI官方后台服务",
+            "url": "https://server.ylui.yuri2.cn",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "NetWork": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "网络",
+            "icon": {
+                "type": "img",
+                "content": "./res/img/icon/network.ico",
+                "bg": "rgb(#000000)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "2.1.0",
+            "poweredBy": "郭郭",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "公网测速（国内）",
+            "url": "https://www.speedtest.cn/",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "Aria2": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "Aria2 Downloader",
+            "icon": {
+                "type": "img",
+                "content": "./res/img/icon/d1.png",
+                "bg": "rgb(#000000)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "2.1.0",
+            "poweredBy": "郭郭",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Aria2",
+            "url": "https://ariang.huacloud.eu.org",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "ylui-fa": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "Font Awesome",
+            "icon": {
+                "type": "fa",
+                "content": "flag",
+                "bg": "rgb(53,154,238)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "2.1.2",
+            "poweredBy": "郭郭",
+            "resizable": true,
+            "single": true,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Font Awesome",
+            "url": "https://fontawesome.com:/cheatsheet",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "jellyfin": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "Jellyfin",
+            "icon": {
+                "type": "str",
+                "content": "EMBY",
+                "bg": "rgb(129,182,1)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "郭郭",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "EMBY媒体中心",
+            "url": "https://jellyfin-inner.huacloud.eu.org",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-201": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./res/img/icon/network.ico",
+                "bg": "rgb(#000000)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "郭郭",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "本地测速",
+            "url": "https://speedtest-inner.huacloud.eu.org",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-207": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "宝塔面板",
+                "bg": "#26a364"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "宝塔面板",
+            "url": "https://server-control-inner.huacloud.eu.org:9000/Server_Control",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-209": {
+            "addressBar": true,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "百度云",
+                "bg": "#3492ba"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": false,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "百度云",
+            "url": "https://baidupcs-inner.huacloud.eu.org",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "OneDrive": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "OneDrive",
+                "bg": "#7875e0"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "OneDrive",
+            "url": "https://onedrive-inner.huacloud.eu.org",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-213": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "./res/img/icon/network.ico",
+                "bg": "rgb(#000000)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "2.1.0",
+            "poweredBy": "郭郭",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "公网测速（国际）",
+            "url": "https://www.speedtest.net",
+            "customTile": "",
+            "urlRandomToken": true
+        }
+    },
+    "shortcuts": [
+        {
+            "app": "NetWork",
+            "title": "公网测速（国内）",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "yl-browser",
+            "title": "浏览器",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "yl-system",
+            "title": "设置",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-201",
+            "title": "本地测速",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "jellyfin",
+            "title": "EMBY媒体中心",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-207",
+            "title": "宝塔面板",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "Aria2",
+            "title": "Aria2",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "OneDrive",
+            "title": "OneDrive",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-209",
+            "title": "百度云",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-213",
+            "title": "公网测速（国际）",
+            "params": {},
+            "hash": ""
+        }
+    ],
+    "tiles": [
+        {
+            "title": "系统",
+            "data": [
+                {
+                    "x": 4,
+                    "y": 2,
+                    "w": 2,
+                    "h": 2,
+                    "app": "yl-browser",
+                    "title": "",
+                    "i": "146",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 4,
+                    "y": 0,
+                    "w": 2,
+                    "h": 2,
+                    "app": "Aria2",
+                    "title": "",
+                    "i": "223",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 4,
+                    "y": 4,
+                    "w": 2,
+                    "h": 2,
+                    "app": "NetWork",
+                    "title": "",
+                    "i": "337",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "w": 4,
+                    "h": 4,
+                    "app": "yl-system",
+                    "title": "设置",
+                    "i": "182",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        }
+    ],
+    "startMenu": {
+        "width": 1188,
+        "height": 601,
+        "sidebar": [
+            {
+                "app": "app-207",
+                "title": "宝塔面板",
+                "params": {},
+                "hash": ""
+            },
+            {
+                "app": "yl-system",
+                "title": "设置",
+                "params": {},
+                "hash": ""
+            }
+        ],
+        "menu": {
+            "itemPushed-85": {
+                "app": "yl-browser",
+                "title": "浏览器",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-181": {
+                "app": "yl-system",
+                "title": "设置",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-184": {
+                "app": "yl-color-picker",
+                "title": "取色器",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-185": {
+                "app": "yl-server",
+                "title": "YLUI官方后台服务",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-186": {
+                "app": "Aria2",
+                "title": "Aria2",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-188": {
+                "app": "jellyfin",
+                "title": "EMBY媒体中心",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-204": {
+                "app": "NetWork",
+                "title": "公网测速",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-205": {
+                "app": "app-201",
+                "title": "本地测速",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-208": {
+                "app": "app-207",
+                "title": "宝塔面板",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-210": {
+                "app": "Aria2",
+                "title": "Aria2",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-211": {
+                "app": "OneDrive",
+                "title": "OneDrive",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-212": {
+                "app": "app-209",
+                "title": "百度云",
+                "params": {},
+                "hash": ""
+            }
+        }
+    }
+}
